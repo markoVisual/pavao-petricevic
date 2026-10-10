@@ -183,7 +183,7 @@ body.scrolled .mbr-header {
   gap: 20px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .navbar {
     position: fixed;
     top: 0;

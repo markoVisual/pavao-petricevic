@@ -1,0 +1,43 @@
+BODY{
+	background : url(Velvet1.jpg);
+	margin: 5%, 10%;
+	
+}
+
+H1{
+	padding-bottom : 5%;
+	text-align : center;
+	font-size : xx-large;
+}
+
+H2 {
+	text-align : center;
+}
+P {
+	text-indent : 5%;
+	margin : 5px;
+}
+
+A {
+	text-decoration: none;
+}
+.KIR {
+	list-style-type : disc;
+	 padding-top: 10px;
+}
+.KIR1{
+	padding-top:40px;
+	margin-top:200px; padding-top:200px;
+}
+.MAIN {
+	font-size : large;
+}
+
+HR{
+	width : 75%;
+	margin-top : 10px;
+}
+
+LI {
+	padding-bottom : 5px;
+}

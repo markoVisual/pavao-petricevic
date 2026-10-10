@@ -432,31 +432,6 @@
 </script>
 
 <script>
-  // LIGHTBOX
-  const galleryItems = document.querySelectorAll('.gallery-item');
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-  const lightboxClose = document.getElementById('lightbox-close');
-
-  galleryItems.forEach(item => {
-    item.addEventListener('click', () => {
-      lightboxImg.src = item.src;
-      lightbox.style.display = 'flex';
-    });
-  });
-
-  lightboxClose.addEventListener('click', () => {
-    lightbox.style.display = 'none';
-  });
-
-  lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox) {
-      lightbox.style.display = 'none';
-    }
-  });
-</script>
-
-<script>
   // SCROLL TO TOP BUTTON
   const scrollBtn = document.getElementById('scrollTopBtn');
 
